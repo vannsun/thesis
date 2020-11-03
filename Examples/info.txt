@@ -1,0 +1,14 @@
+PLUGIN MARKETPLACE
+https://develop.studip.de/studip/plugins.php/pluginmarket/presenting/all?version=4.4
+
+
+Course Copy
+https://develop.studip.de/studip/plugins.php/pluginmarket/presenting/details/8d4bfdd8c1b8ed75ec8da7c298bf9394
+
+
+Course History
+https://develop.studip.de/studip/plugins.php/pluginmarket/presenting/details/102b55c6e7d50a3f1fded960b099cc11
+
+
+Luna CRM für Stud.IP
+https://develop.studip.de/studip/plugins.php/pluginmarket/presenting/details/5a0215d2c775f49e8eb3f55f0e382e19

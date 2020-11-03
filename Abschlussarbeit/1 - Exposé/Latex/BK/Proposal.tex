@@ -1,0 +1,65 @@
+% class options:
+% - select either [german] or [english]
+% - select the type of thesis from:
+%   [bachelor, master, generic]
+%   (in case of generic, use \type{} to specify it)
+% - use option "alpha" for abbreviated citation (instead of numbers)
+% - option "draft" is available, too
+% - use options "utf8" or "latin1" to select inputencoding
+\documentclass[german, expose, latin1]{base/thesis}
+
+\usepackage{units}    % useful for settings units:              \unit[23]{m}
+\usepackage{nicefrac} % for setting fractions esp. within text: \nicefrac{km}{h}
+
+\usepackage{algorithm, algorithmic}  % for pseudo code (cf. documentation)
+\renewcommand{\algorithmiccomment}[1]{\qquad{\small // \textit{#1}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\type{Bachelorarbeit}
+\title{Entwurf und Implementierung einer Softwareanwendung zur Themenfindung für Abschlussarbeiten}
+\shorttitle{am Beispiel des Departments für Informatik der Universität Oldenburg}                       % by default = title
+\author{Cinddy Vannessa Cañon Pasquel}
+\email{cinddy.vannessa.canon.pasquel@uni-oldenburg.de}
+\firstSupervisor{Dr. Ute Vögel-Sonnenschein}
+%\submitdate{}
+%\secondSupervisor{???}
+%\dept{...}                             % by default KBS UOS
+%\submitdate{November 2004}             % by default current month & year
+%\signcity{}                            % by default Oldenburg
+%signline{Osnabrück, 11. Dezember 2004} % by default "signcity, submitdate"
+
+\generatetitle
+
+\cleardoublepage
+
+
+
+\cleardoublepage
+\thispagestyle{empty}
+\tableofcontents
+
+
+\startTextChapters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\chapter{Introduction}
+\include{docs/Einleitung}
+\include{docs/Einleitung/Einfuerung}
+\include{docs/Einleitung/Motivation}
+\include{docs/Einleitung/Problembeschreibung}
+\include{docs/Einleitung/StandForschung}
+\include{docs/Einleitung/Aufgabenstellung}
+
+
+\newpage
+Beispieltext. Siehe auch \cite{Fischer:1995, Besl:1992, Thrun:2000}.
+URLs gehen auch: \cite{robocup}.
+
+% DON'T set \bibliographystyle here -- use the documentclass option instead
+\bibliography{papers}
+
+%\closing %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}

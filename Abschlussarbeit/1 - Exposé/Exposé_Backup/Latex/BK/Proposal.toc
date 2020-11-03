@@ -1,0 +1,10 @@
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Einfurung und Zielsetzung}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Motivation}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Problembeschreibung}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Stand der Forschung}{5}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Aufgabenstellung}{6}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Vorl\"aufige Datenstruktur}{6}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Definition von Suchkriterien}{7}{subsubsection.1.5.2}%

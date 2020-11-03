@@ -1,0 +1,6 @@
+pluginname=MyPlugin
+pluginclassname=MyPlugin
+origin=elmar@example.com
+version=1.0
+description=Ein völlig nutzloses Beispiel-Plugin
+studipMinVersion=2.0

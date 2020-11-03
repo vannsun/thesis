@@ -1,0 +1,106 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
+A level-1 auxiliary file: content/kapitel1/0_motivation.aux
+Reallocating 'name_of_file' (item size: 1) to 43 items.
+A level-1 auxiliary file: content/kapitel1/1_problembeschreibung.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: content/kapitel1/2_stand.aux
+Reallocating 'name_of_file' (item size: 1) to 40 items.
+A level-1 auxiliary file: content/kapitel1/3_aufgabenstellung.aux
+Reallocating 'name_of_file' (item size: 1) to 41 items.
+A level-1 auxiliary file: content/kapitel2/0_ausgangssituation.aux
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: content/kapitel2/1_struktur.aux
+Reallocating 'name_of_file' (item size: 1) to 45 items.
+A level-1 auxiliary file: content/kapitel2/2_technische_grundlagen.aux
+Reallocating 'name_of_file' (item size: 1) to 27 items.
+A level-1 auxiliary file: content/kapitel2/3_LMS.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: content/kapitel2/4_studip.aux
+Reallocating 'name_of_file' (item size: 1) to 43 items.
+A level-1 auxiliary file: content/kapitel3/0_anforderungsanalyse.aux
+Reallocating 'name_of_file' (item size: 1) to 31 items.
+A level-1 auxiliary file: content/kapitel3/1_umfrage.aux
+Reallocating 'name_of_file' (item size: 1) to 36 items.
+A level-1 auxiliary file: content/kapitel3/2_user_stories.aux
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+A level-1 auxiliary file: content/kapitel3/3_F_anforderungen.aux
+Reallocating 'name_of_file' (item size: 1) to 40 items.
+A level-1 auxiliary file: content/kapitel3/4_NF_anforderungen.aux
+Reallocating 'name_of_file' (item size: 1) to 37 items.
+A level-1 auxiliary file: content/kapitel3/5_suchkriterien.aux
+Reallocating 'name_of_file' (item size: 1) to 36 items.
+A level-1 auxiliary file: content/kapitel3/6_modellierung.aux
+Reallocating 'name_of_file' (item size: 1) to 41 items.
+A level-1 auxiliary file: content/kapitel4/0_entwurf_implement.aux
+Reallocating 'name_of_file' (item size: 1) to 36 items.
+A level-1 auxiliary file: content/kapitel4/1_entscheidung.aux
+Reallocating 'name_of_file' (item size: 1) to 31 items.
+A level-1 auxiliary file: content/kapitel4/2_entwurf.aux
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+A level-1 auxiliary file: content/kapitel4/3_implementierung.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: content/kapitel4/4_tests.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
+A level-1 auxiliary file: content/kapitel4/5_ergebnisse.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: content/content.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: alphadin.bst
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: content/bibliographie.bib
+Warning--entry type for "stIP20" isn't style-file defined
+--line 14 of file content/bibliographie.bib
+Warning--I didn't find a database entry for "BScInf:2020"
+Warning--I didn't find a database entry for "Boles:2015"
+Warning--I didn't find a database entry for "SpeInf:2020"
+Warning--I didn't find a database entry for "EHS:2020"
+You've used 5 entries,
+            4793 wiz_defined-function locations,
+            959 strings with 8093 characters,
+and the built_in function-call counts, 3924 in all, are:
+= -- 392
+> -- 119
+< -- 151
++ -- 171
+- -- 42
+* -- 246
+:= -- 698
+add.period$ -- 8
+call.type$ -- 5
+change.case$ -- 26
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 102
+empty$ -- 263
+format.name$ -- 79
+if$ -- 749
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 16
+newline$ -- 41
+num.names$ -- 17
+pop$ -- 40
+preamble$ -- 1
+purify$ -- 36
+quote$ -- 0
+skip$ -- 245
+stack$ -- 0
+substring$ -- 252
+swap$ -- 24
+text.length$ -- 21
+text.prefix$ -- 1
+top$ -- 0
+type$ -- 48
+warning$ -- 0
+while$ -- 36
+width$ -- 8
+write$ -- 76
+(There were 5 warnings)

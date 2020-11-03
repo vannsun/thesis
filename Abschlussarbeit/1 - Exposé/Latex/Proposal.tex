@@ -1,0 +1,179 @@
+%%
+%% Template of the department Very Large Business Applications,
+%%    CvO University Oldenburg for scientific papers
+%%
+%% Created by Dipl.-Inform. Daniel Süpke
+%%    For questions, comments, suggestions etc. send an email to:
+%%    suepke@wi-ol.de or suepke@gmx.de
+%%
+%% Version: April 16, 2010
+%%
+%% Note: Has only been tested with pdflatex, not latex (dvi). Still, there is
+%% theoretical support also for latex.
+%%
+
+
+\documentclass[11pt]{scrartcl}
+
+%% packages
+\usepackage[utf8]{inputenc}       % Standard for Linux
+%\usepackage[latin1]{inputenc}    % Standard for Windows
+\usepackage{ngerman}              % For German language
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{ifpdf}
+\usepackage{setspace}             % For line spread
+\usepackage{enumitem}
+\usepackage{caption}
+
+\newlist{legal}{enumerate}{10}
+\setlist[legal]{label*=\arabic*.}
+
+%\usepackage{url}
+%\usepackage[sorting=none]{biblatex}
+
+
+% For pdflatex
+\ifpdf
+  % One of these two:
+  \usepackage[pdftex]{graphicx}
+  %\usepackage[pdftex]{epsfig}
+
+  \usepackage[pdftex]{hyperref}
+% For latex (dvi)
+\else
+  % One of these two:
+  \usepackage[dvips]{graphicx}
+  %\usepackage[dvips]{epsfig}
+
+  % make the command \href from hyperref available as a 'print only'
+  \newcommand{\href}[2]{#2}
+\fi
+
+%% Picture options
+\graphicspath{{pictures/}}         % Default path to pictures used
+\DeclareGraphicsExtensions{.png}   % More extensions can be added
+
+
+%% Pagestyle options
+\pagestyle{fancy}
+%\lhead{}
+%\chead{}
+%\rhead{}
+%\lfoot{Daniel Süpke}
+%\cfoot{}
+%\rfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\bibliographystyle{base/plaindin} 
+
+\geometry{a4paper,left=3cm,right=3cm}
+%\geometry{a4paper,left=3cm,right=2.5cm}   % Please use these settings for a PhD-thesis
+
+
+
+
+%% Document start
+\begin{document}
+
+%% Title page
+\begin{titlepage}
+ 	\begin{centering}
+	\begin{figure}[h!]
+    \centering
+    \includegraphics[width=310pt]{pics/uol}    % Ggf. Copyright beachten - ansonsten nur für Gebrauch an der CvO
+	\end{figure}
+	\large DEPARTMENT FÜR INFORMATIK\\
+
+  	\vspace*{2cm}
+  
+	\LARGE \textbf{Exposé\\}
+	\vspace*{0.2cm}
+  	\Large zur Bachelorarbeit\\
+  	\vspace*{1cm}  
+  
+	\textsf{\LARGE \textbf{Entwicklung eines StudIP-Plugins zur Themenfindung für Abschlussarbeiten\\}}
+	\vspace*{0.2cm}
+	\noindent \large für das Department für Informatik\\
+  %\emph{Bei Referaten noch mit Zusatz:} im Rahmen des..     % Insert correct type
+
+  \end{centering}
+  
+  \vspace*{3cm}
+  \begin{tabbing}
+  xxxxxxxxxxxxxxxx\= \kill
+  
+  % Change me
+  %\small Themensteller:\> Prof. Dr.-Ing. Jorge Marx Gómez\\
+  \small \textbf{Erstgutachter: }\> Dr. Ute Vogel-Sonnenschein\\
+  \small \textbf{Zweitgutachter: }\> --\\\\
+  \small \textbf{Autor: }\>Cinddy Vannessa Canon Pasquel\\
+  %\small \>Semesteranschrift\\
+  %\small \>PLZ Wohnort:\\
+  %\small \>Telefonnummer:\\
+  \small \>cinddy.vannessa.canon.pasquel@uni-oldenburg.de\\\\
+  \end{tabbing}
+  \vspace*{1cm}
+  \normalsize \centering Juni 2020
+\end{titlepage}
+
+
+
+%\thispagestyle{empty}
+\newpage
+
+\tableofcontents
+\newpage
+
+
+%\section*{Glossar}             % Alternatively a glossary package can be used
+%\addcontentsline{toc}{section}{Glossar}
+%\section*{Symbolverzeichnis}   % If needed
+%\addcontentsline{toc}{section}{Symbolverzeichnis}
+%\newpage
+
+\listoffigures
+\addcontentsline{toc}{section}{Abbildungsverzeichnis}
+%\listoftables
+%\addcontentsline{toc}{section}{Tabellenverzeichnis}
+\newpage
+
+%% Line spread
+\onehalfspacing
+
+
+% For large documents, instead of typing all the text inside here, it may be better
+% splitting the content in multiple files and using \include or \includeonly
+
+% Start of content
+\input{docs/Einleitung}
+\include{docs/Einleitung/Einfuerung}
+\include{docs/Einleitung/Motivation}
+\include{docs/Einleitung/Problembeschreibung}
+\include{docs/Einleitung/AktuelleSituation}
+\include{docs/Einleitung/Aufgabenstellung}
+  
+
+\include{docs/Gliederung}
+\include{docs/Zeitplanung}
+\include{docs/Ergebnisse}
+
+
+
+% Appendix
+\begin{appendix}
+\include{docs/Anhang}
+
+%\begin{verbatim}
+%10 PRINT "Sales and Distribution"
+%20 GOTO 10
+%\end{verbatim}
+
+\newpage
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+\bibliographystyle{alpha}
+\bibliography{papers} % Point to BibTeX literature file e.g. literatur.bib
+
+\end{appendix}
+
+\end{document}

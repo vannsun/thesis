@@ -1,0 +1,126 @@
+\documentclass[11pt,a4paper]{book} % Basisdokumentenklasse
+\usepackage[latin1]{inputenc}      % F\"{u}r Umlaute
+\usepackage[T1]{fontenc}           % und {\ss}
+\usepackage[ngerman]{babel}        % Deutsche Standardbezeichner und Trennung
+\usepackage{makeidx}               % Indexpaket
+\usepackage{times}                 % Sch\"{o}nere Schriften, Achtung, nicht pslatex verwenden!
+\usepackage{longtable}             % Lange Tabelle f\"{u}r Abk\"{u}rzungsverzeichnis
+\usepackage{graphics}              % EPS-Grafiken einbinden
+\usepackage{hyperref}
+%\usepackage{enumitem}
+
+\usepackage{fancyvrb}              % Fancy-Verbatin f\"{u}r Programmlistings
+
+\usepackage{style/abtisstud}           % Das Abteilungs-Stylepaket, am Ende einbinden!
+
+% Einstellungen f\"{u}r die "offizielle" Titelseite
+\title{Entwicklung eines Stud.IP-Plugins\\[0.2em] zur Themenverwaltung von Abschlussarbeiten} % Titel der Arbeit
+\author{Cinddy Vannessa Cañon Pasquel} % Name des Autors \~{n}
+\date{\today}
+\studiengang{Bachelorstudiengang Informatik}
+\arbeitstyp{Bachelorarbeit}
+\erstgutachter{Dr. Ute Vogel-Sonnenschein}
+\zweitgutachter{Dipl. Nico Müller}
+
+% Index erneuern
+\makeindex
+
+%\includeonly{content/kapitel1}
+
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+% Das eigentliche Dokument
+\begin{document}
+%Damit die Hyperrefs richtig funktionieren (vor allem bei Seite 1)
+\pagenumbering{gobble}
+
+% Anfang des Dokuments
+\maketitle              % Offizielle Titelseite der Uni
+
+\newpage
+\thispagestyle{empty}
+%\cleardoublepage
+
+\pagenumbering{Roman}   % R\"{o}mische Seitenzahlen f\"{u}r den Anfang
+
+% Zusammenfassung und Abstract
+\input{content/abstract.tex}
+
+
+% Inhaltsverzeichnis
+\renewcommand{\contentsname}{Inhalt} % Es soll nicht Inhaltsverzeichnis hei{\ss}en, sondern Inhalt
+\tableofcontents        % Inhaltsverzeichnis einbinden
+\cleardoublepage        % Danach auf ungerader Seite weitermachen
+\pagenumbering{arabic}  % Arabische Seitenzahlen starten neu
+
+
+% Der eigentliche Inhalt, hier k\"{o}nnte man dann auch jedes Kapitel einzeln einf\"{u}gen
+% KAPITEL 1
+\include{content/kapitel1/0_motivation}
+\include{content/kapitel1/1_problembeschreibung}
+\include{content/kapitel1/2_stand}
+\include{content/kapitel1/3_aufgabenstellung}
+
+
+% KAPITEL 2
+\include{content/kapitel2/0_ausgangssituation}
+\include{content/kapitel2/1_struktur}
+\include{content/kapitel2/2_technische_grundlagen}
+\include{content/kapitel2/3_LMS}
+\include{content/kapitel2/4_studip}
+
+
+% KAPITEL 3
+\include{content/kapitel3/0_anforderungsanalyse}
+\include{content/kapitel3/1_umfrage}
+\include{content/kapitel3/2_user_stories}
+\include{content/kapitel3/3_F_anforderungen}
+\include{content/kapitel3/4_NF_anforderungen}
+\include{content/kapitel3/5_suchkriterien}
+\include{content/kapitel3/6_modellierung}
+
+% KAPITEL 4
+\include{content/kapitel4/0_entwurf_implement}
+\include{content/kapitel4/1_entscheidung}
+\include{content/kapitel4/2_entwurf}
+\include{content/kapitel4/3_implementierung}
+\include{content/kapitel4/4_tests}
+\include{content/kapitel4/5_ergebnisse}
+
+\include{content/content}
+
+
+% Verzeichnisse am Ende, erst das Glossar
+\addonchapter{Glossar} % Es soll auch Glossar hei{\ss}en
+\input{content/glossar.tex}
+
+% Dann die Abk\"{u}rzungen
+\addonchapter{Abkürzungen} % Die sollen auch Abk\"{u}rzungen hei{\ss}en
+\input{content/abkuerzungen.tex}
+
+% Weiter mit Abbildungen
+\cleardoublepage
+\phantomsection % generiert Anker f\"{u}r \addcontentsline
+\addcontentsline{toc}{chapter}{Abbildungen} % Sowohl im Inhaltsverzeichnis als auch als
+\renewcommand{\listfigurename}{Abbildungen} % \"{U}berschrift als "Abbildungen" ohne -verzeichnis
+\listoffigures
+
+% Schlie{\ss}lich Literatur
+\cleardoublepage
+\phantomsection % generiert Anker f\"{u}r \addcontentsline
+\addcontentsline{toc}{chapter}{Literatur} % Soll als "Literatur" auftauchen
+\bibliographystyle{alphadin}                 % Unser Standard-Bibliopgraphiestyle
+\renewcommand{\bibname}{Literatur}        % Auch als \"{U}berschrift soll "Literatur" erscheinen
+\bibliography{content/bibliographie}            % Literaturverzeichnis einbinden
+
+% Und ganz am Ende der Index
+\cleardoublepage
+\phantomsection % generiert Anker f\"{u}r \addcontentsline
+\addcontentsline{toc}{chapter}{Index} % Der auch Index hei{\ss}en soll
+\input{content/index.tex}                     % Index einbinden, vorher aber mit makeindex erzeugen!
+
+% Und schlie{\ss}lich noch die Versicherung f\"{u}r das Pr\"{u}fungsamt, Parameter ist der Ort der Unterschrift
+\cleardoublepage
+\versicherung{Oldenburg}
+
+\end{document}

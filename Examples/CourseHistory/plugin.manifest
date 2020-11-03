@@ -1,0 +1,6 @@
+pluginname=CourseHistory
+pluginclassname=Coursehistory
+origin=Vec
+version=3.2
+studipMinVersion=4.3
+studipMaxVersion=4.4.99

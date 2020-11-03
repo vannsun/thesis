@@ -1,0 +1,19 @@
+\section{Stud.IP}\index{Stud.IP}
+Stud.IP ist ein Campus-Lernmanagementsystem und steht für "Studienbegleitender Internetsupport von Präsenzlehre" \cite{stIP20}. Alle Unterrichtsprozesse werden von Stud.IP unterstützt, indem die Verwaltung der Prozesse von der Planung der Unterrichten und Zuordnung der Unterrichtsräume bis zum Qualitätsmanagement konsolidiert wird. 
+
+Stud.IP besteht aus einer Kernumgebung, die eine Vielzahl von Tools anbietet, von der kollaborativen Texterstellung über Lernmodule bis hin zum Dokumentenmanagement, es werden im Kern Basisfunktionalitäten bereitgestellt. Der Kern von Stud.IP kann weiterentwickelt werden um die Funktionalitäten des Systems zu erweitern.
+
+Stud.IP und die meisten der verfügbare Plugins sind Open Source Software und stehen unter der General Public License. Der Kern ist nachhaltig und wird kontinuierlich weiterentwickelt.
+
+Die Universität Oldenburg implementierte zum Wintersemester 2003/2004 das Open-Source-LMS Stud.IP und wechselte vom kommerziellen LMS Blackboard \cite{appelrath06}. Einer der Vorteile des Open-Source-Ansatzes besteht darin, dass lokale Anpassungen an den Anforderungen der Lehrenden und Studierenden vorgenommen werden können.
+Für die Universität Oldenburg wurden einige Module eingebaut wie die Gruppenverwaltung in Veranstaltungen oder das "Schwarzes Brett" Plugin.
+
+\subsection{Softwarearchitektur}
+
+Stud.IP ist eine PHP-Softwareanwendung, die eine MySQL-Datenbank verwendet. Als Webserver wird der Apache unterstützt. 
+
+Wer mitentwickeln will, braucht also vor allem PHP-Kenntnisse, muss sich etwas mit SQL auskennen und ein bisschen über Apache-Konfiguration wissen. Und, wie immer bei Webanwendungen: Alle Ausgaben geschehen in HTML, formatiert duch CSS. Einige Funktionen verwenden zudem XML als Zwischenformat, Javascript und AJAX sind ebenfalls an vielen Stellen präsent. Wenn all das keine Fremdwörter für dich sind, bis du gut gerüstet.
+
+%\subsection{Trails}
+\subsection{Stud.IP Datenbank}
+Bei der Stud.IP-Datenbank handelt es sich um eine MariaDB-Datenbank. Das Datenbankschema ist über die Jahre erweitert worden, es sind keine Informationen über die Struktur zu finden.

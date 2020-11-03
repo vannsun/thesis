@@ -1,0 +1,52 @@
+\BOOKMARK [0][-]{chapter.1}{Einleitung}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Problembeschreibung}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Stand der Forschung}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Aufgabenstellung}{chapter.1}% 5
+\BOOKMARK [0][-]{chapter.2}{Ausgangssituation}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Struktur des Departements f\374r Informatik}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.2}{Technische Grundlagen der Software}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.1}{Weiterentwicklung von Softwaresystemen}{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.2}{LimeSurvey - Umfrage Tool}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.3}{Objektorientierte Programmierung}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.4}{Design Patterns}{section.2.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.2.4.1}{Model View Controller}{subsection.2.2.4}% 13
+\BOOKMARK [2][-]{subsection.2.2.5}{Entwicklungssystem mit XAMPP}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.6}{MariaDB}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.7}{PHP}{section.2.2}% 16
+\BOOKMARK [1][-]{section.2.3}{Lernmanagementsysteme}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.4}{Stud.IP}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.4.1}{Softwarearchitektur}{section.2.4}% 19
+\BOOKMARK [2][-]{subsection.2.4.2}{Stud.IP Datenbank}{section.2.4}% 20
+\BOOKMARK [0][-]{chapter.3}{Anforderungsanalyse}{}% 21
+\BOOKMARK [1][-]{section.3.1}{Umfrage}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.2}{Umfrage f\374r die Lehrende}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.3}{Umfrage f\374r die Studierende}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.1}{Ergebnisse der Umfrage und Datenanalyse}{section.3.3}% 25
+\BOOKMARK [1][-]{section.3.4}{User Stories}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.5}{Funktionale Anforderungen}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.6}{Nicht Funktionale Anforderungen}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.7}{Definition der Suchkriterien und Suchalgorithmus}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.8}{Modellierung}{chapter.3}% 30
+\BOOKMARK [0][-]{chapter.4}{Entwurf und Implementierung}{}% 31
+\BOOKMARK [1][-]{section.4.1}{Entwurfsentscheidung}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.2}{Entwurf}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.3}{Implementierung}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.4}{Tests}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.5}{Ergebnisse}{chapter.4}% 36
+\BOOKMARK [0][-]{chapter.5}{Anwendung des Style-Pakets}{}% 37
+\BOOKMARK [1][-]{section.5.1}{Einbinden des Pakets}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.2}{\304nderungen gegen\374ber book}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.3}{Einbinden von Abbildungen}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.4}{Erstellen und Anpassen des Indexes}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.5}{Internationalisierung}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.6}{Einbetten s\344mtlicher Schriften}{chapter.5}% 43
+\BOOKMARK [0][-]{chapter.6}{Festlegungen der Abteilung}{}% 44
+\BOOKMARK [1][-]{section.6.1}{Verzeichnisreihenfolge}{chapter.6}% 45
+\BOOKMARK [1][-]{section.6.2}{Zitate und Literaturreferenzen}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.3}{Die offizielle Titelseite}{chapter.6}% 47
+\BOOKMARK [0][-]{section*.8}{Glossar}{}% 48
+\BOOKMARK [0][-]{section*.9}{Abk\374rzungen}{}% 49
+\BOOKMARK [0][-]{section*.10}{Abbildungen}{}% 50
+\BOOKMARK [0][-]{section*.12}{Literatur}{}% 51
+\BOOKMARK [0][-]{section*.14}{Index}{}% 52

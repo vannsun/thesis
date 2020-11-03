@@ -1,0 +1,15 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Proposal.aux
+The style file: base/plaindin.bst
+A level-1 auxiliary file: docs/Einleitung/Einfuerung.aux
+A level-1 auxiliary file: docs/Einleitung/Motivation.aux
+A level-1 auxiliary file: docs/Einleitung/Problembeschreibung.aux
+A level-1 auxiliary file: docs/Einleitung/StandForschung.aux
+A level-1 auxiliary file: docs/Einleitung/Aufgabenstellung.aux
+A level-1 auxiliary file: docs/Gliederung.aux
+A level-1 auxiliary file: docs/Zeitplanung.aux
+Illegal, another \bibstyle command---line 47 of file Proposal.aux
+ : \bibstyle
+ :          {alpha}
+I'm skipping whatever remains of this command
+Database file #1: papers.bib
+(There was 1 error message)

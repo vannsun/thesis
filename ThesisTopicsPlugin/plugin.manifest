@@ -1,0 +1,12 @@
+pluginclassname=ThesisTopicsPlugin
+pluginname=ThesisTopics
+origin=VCP
+version=1.0.0
+displayname=Thesis Topics
+description=Erstellung und Bereitstellung zeitgesteuerter Aufgaben für Studierende inkl. Selbstüberprüfung (ehm. DoIT)
+category = Lehr- und Lernorganisation
+studipMinVersion=4.5.1
+studipMaxVersion=4.5.99
+keywords=Abschlussarbeiten; Suche
+descriptionshort=Verwaltung und Suche nach Themen für Abschlussarbeiten
+descriptionlong=In ThesisTopics haben die Lehrenden die Möglichkeit, neue Themen für Abschlussarbeiten hinzufügen und verwalten sodass Studierende nach diesen suchen können
